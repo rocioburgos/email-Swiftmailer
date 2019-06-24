@@ -36,7 +36,7 @@ $html_msj= "
 // Create a message
 $message = (new Swift_Message('Wonderful Subject'))
   ->setFrom([$email => $name])
-  ->setTo(['rocioburgos00@gmail.com' => 'Rocio Burgos'])
+  ->setTo(['rocio@gmail.com' => 'Rocio Burgos'])
   ->setBody($html_msj)
   ;
 
